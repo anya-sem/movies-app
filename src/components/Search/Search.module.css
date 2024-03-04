@@ -1,0 +1,33 @@
+form {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 15px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+input {
+  border-radius: 5px;
+  border: 1px solid #6b6b6b;
+  padding: 8px;
+  width: 200px;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+input:hover {
+  border-color: #6b2adb;
+}
+.button {
+  border-radius: 5px;
+  border: 1px solid #6b2adb;
+  padding: 5px 10px;
+  background-color: #fff;
+  color: #6b2adb;
+  display: block;
+  cursor: pointer;
+  transition: background-color 0.25s, color 0.25s;
+}
+.button:hover {
+  color: #eee;
+  background-color: #6b2adb;
+}

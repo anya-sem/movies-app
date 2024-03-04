@@ -1,0 +1,24 @@
+.wrapper {
+  background-color: #eee;
+  padding: 15px 70px;
+  margin-bottom: 20px;
+}
+.nav {
+  display: flex;
+  gap: 20px;
+}
+.link {
+  border-radius: 5px;
+  border: 1px solid transparent;
+  padding: 5px 10px;
+  display: block;
+  cursor: pointer;
+  transition: border-color 0.25s, color 0.25s;
+}
+.link:hover {
+  border-color: #6b2adb;
+  color: #6b2adb;
+}
+.active {
+  color: #6b2adb;
+}
