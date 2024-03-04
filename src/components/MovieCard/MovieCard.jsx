@@ -2,7 +2,8 @@ import css from "./MovieCard.module.css";
 
 export default function MovieCard({ movie }) {
   const defaultImg =
-    "https://dl-media.viber.com/10/share/2/long/vibes/icon/image/0x0/95e0/5688fdffb84ff8bed4240bcf3ec5ac81ce591d9fa9558a3a968c630eaba195e0.jpg";
+    "https://static.vecteezy.com/system/resources/previews/005/337/799/non_2x/icon-image-not-found-free-vector.jpg";
+
   return (
     <div className={css.container}>
       {movie && (
@@ -15,6 +16,7 @@ export default function MovieCard({ movie }) {
             }
             alt={movie.title}
             width={250}
+            className={css.img}
           />
           <div className={css.textWrap}>
             <h1 className={css.title}>{movie.title}</h1>

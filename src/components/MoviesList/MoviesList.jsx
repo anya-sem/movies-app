@@ -3,7 +3,7 @@ import css from "./MoviesList.module.css";
 
 export default function MoviesList({ error, movies, location }) {
   const defaultImg =
-    "https://dl-media.viber.com/10/share/2/long/vibes/icon/image/0x0/95e0/5688fdffb84ff8bed4240bcf3ec5ac81ce591d9fa9558a3a968c630eaba195e0.jpg";
+    "https://static.vecteezy.com/system/resources/previews/005/337/799/non_2x/icon-image-not-found-free-vector.jpg";
   return (
     <div>
       {error ? (

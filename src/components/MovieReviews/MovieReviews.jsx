@@ -37,7 +37,15 @@ export default function MovieReviews() {
               {reviews &&
                 reviews.map(({ id, author, content }) => (
                   <li key={id} className={css.item}>
-                    <p className={css.author}>{author}</p>
+                    <div className={css.authorWrap}>
+                      <img
+                        src="https://static.vecteezy.com/system/resources/previews/001/840/618/non_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg"
+                        alt="author"
+                        width="40px"
+                        className={css.img}
+                      />
+                      <p className={css.author}>{author}</p>
+                    </div>
                     <p className={css.text}>{content}</p>
                   </li>
                 ))}
